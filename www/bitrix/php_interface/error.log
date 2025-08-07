@@ -1,0 +1,209 @@
+2025-08-07 01:53:29 - Host: localhost:8006 - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
+fopen(/var/www/html/bitrix/cache/cacheCleanJob_lock.php): Failed to open stream: No such file or directory (0)
+/var/www/html/bitrix/modules/main/lib/data/cacheenginefiles.php:46
+#0: fopen(string, string)
+	/var/www/html/bitrix/modules/main/lib/data/cacheenginefiles.php:46
+#1: Bitrix\Main\Data\CacheEngineFiles->__construct(array)
+	/var/www/html/bitrix/modules/main/lib/data/cache.php:96
+#2: Bitrix\Main\Data\Cache::createCacheEngine(array)
+	/var/www/html/bitrix/modules/main/lib/data/cache.php:137
+#3: Bitrix\Main\Data\Cache::createInstance()
+	/var/www/html/bitrix/modules/main/lib/data/managedcache.php:46
+#4: Bitrix\Main\Data\ManagedCache->read(double, string, string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:186
+#5: Bitrix\Main\Config\Option::load(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:83
+#6: Bitrix\Main\Config\Option::getRealValue(string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:32
+#7: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:422
+#8: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:70
+#9: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:44
+#10: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:130
+#11: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:1
+#12: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:19
+#13: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:10
+#14: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#15: require(string)
+	/var/www/html/catalog/index.php:2
+----------
+
+2025-08-07 01:53:29 - Host: localhost:8006 - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
+fopen(/var/www/html/bitrix/cache/cacheCleanJob_lock.php): Failed to open stream: No such file or directory (0)
+/var/www/html/bitrix/modules/main/lib/data/cacheenginefiles.php:46
+#0: fopen(string, string)
+	/var/www/html/bitrix/modules/main/lib/data/cacheenginefiles.php:46
+#1: Bitrix\Main\Data\CacheEngineFiles->__construct(array)
+	/var/www/html/bitrix/modules/main/lib/data/cache.php:96
+#2: Bitrix\Main\Data\Cache::createCacheEngine(array)
+	/var/www/html/bitrix/modules/main/lib/data/cache.php:137
+#3: Bitrix\Main\Data\Cache::createInstance()
+	/var/www/html/bitrix/modules/main/lib/data/managedcache.php:46
+#4: Bitrix\Main\Data\ManagedCache->read(double, string, string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:186
+#5: Bitrix\Main\Config\Option::load(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:83
+#6: Bitrix\Main\Config\Option::getRealValue(string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:32
+#7: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:422
+#8: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:70
+#9: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:44
+#10: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:130
+#11: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:1
+#12: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:19
+#13: require_once(string)
+	/var/www/html/bitrix/modules/main/public/session.php:8
+#14: require(string)
+	/var/www/html/bitrix/tools/public_session.php:1
+----------
+
+2025-08-07 01:54:06 - Host: localhost:8006 - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
+fopen(/var/www/html/bitrix/cache/cacheCleanJob_lock.php): Failed to open stream: No such file or directory (0)
+/var/www/html/bitrix/modules/main/lib/data/cacheenginefiles.php:46
+#0: fopen(string, string)
+	/var/www/html/bitrix/modules/main/lib/data/cacheenginefiles.php:46
+#1: Bitrix\Main\Data\CacheEngineFiles->__construct(array)
+	/var/www/html/bitrix/modules/main/lib/data/cache.php:96
+#2: Bitrix\Main\Data\Cache::createCacheEngine(array)
+	/var/www/html/bitrix/modules/main/lib/data/cache.php:137
+#3: Bitrix\Main\Data\Cache::createInstance()
+	/var/www/html/bitrix/modules/main/lib/data/managedcache.php:46
+#4: Bitrix\Main\Data\ManagedCache->read(double, string, string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:186
+#5: Bitrix\Main\Config\Option::load(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:83
+#6: Bitrix\Main\Config\Option::getRealValue(string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:32
+#7: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:422
+#8: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:70
+#9: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:44
+#10: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:130
+#11: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:1
+#12: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:19
+#13: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:10
+#14: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#15: require(string)
+	/var/www/html/catalog/index.php:2
+----------
+
+2025-08-07 01:54:10 - Host: localhost:8006 - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
+fopen(/var/www/html/bitrix/cache/cacheCleanJob_lock.php): Failed to open stream: No such file or directory (0)
+/var/www/html/bitrix/modules/main/lib/data/cacheenginefiles.php:46
+#0: fopen(string, string)
+	/var/www/html/bitrix/modules/main/lib/data/cacheenginefiles.php:46
+#1: Bitrix\Main\Data\CacheEngineFiles->__construct(array)
+	/var/www/html/bitrix/modules/main/lib/data/cache.php:96
+#2: Bitrix\Main\Data\Cache::createCacheEngine(array)
+	/var/www/html/bitrix/modules/main/lib/data/cache.php:137
+#3: Bitrix\Main\Data\Cache::createInstance()
+	/var/www/html/bitrix/modules/main/lib/data/managedcache.php:46
+#4: Bitrix\Main\Data\ManagedCache->read(double, string, string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:186
+#5: Bitrix\Main\Config\Option::load(string)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:83
+#6: Bitrix\Main\Config\Option::getRealValue(string, string, boolean)
+	/var/www/html/bitrix/modules/main/lib/config/option.php:32
+#7: Bitrix\Main\Config\Option::get(string, string, string)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:422
+#8: Bitrix\Main\HttpRequest->prepareCookie(array)
+	/var/www/html/bitrix/modules/main/lib/httprequest.php:70
+#9: Bitrix\Main\HttpRequest->__construct(object, array, array, array, array)
+	/var/www/html/bitrix/modules/main/lib/httpapplication.php:44
+#10: Bitrix\Main\HttpApplication->initializeContext(array)
+	/var/www/html/bitrix/modules/main/lib/application.php:130
+#11: Bitrix\Main\Application->initializeExtendedKernel(array)
+	/var/www/html/bitrix/modules/main/include.php:1
+#12: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:19
+#13: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:10
+#14: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#15: require(string)
+	/var/www/html/catalog/index.php:2
+----------
+
+2025-08-07 01:58:22 - Host: localhost:8006 - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
+String offset cast occurred (0)
+/var/www/html/bitrix/modules/main/include.php:1
+#0: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:19
+#1: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:10
+#2: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#3: require(string)
+	/var/www/html/catalog/index.php:2
+----------
+
+2025-08-07 01:58:22 - Host: localhost:8006 - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
+String offset cast occurred (0)
+/var/www/html/bitrix/modules/main/include.php:1
+#0: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:19
+#1: require_once(string)
+	/var/www/html/bitrix/modules/main/public/session.php:8
+#2: require(string)
+	/var/www/html/bitrix/tools/public_session.php:1
+----------
+
+2025-08-07 02:01:14 - Host: localhost:8006 - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
+String offset cast occurred (0)
+/var/www/html/bitrix/modules/main/include.php:1
+#0: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:19
+#1: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:10
+#2: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#3: require(string)
+	/var/www/html/catalog/index.php:2
+----------
+
+2025-08-07 02:06:44 - Host: localhost:8006 - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
+String offset cast occurred (0)
+/var/www/html/bitrix/modules/main/include.php:1
+#0: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:19
+#1: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:10
+#2: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#3: require(string)
+	/var/www/html/catalog/index.php:2
+----------
+
+2025-08-07 02:10:25 - Host: localhost:8006 - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
+String offset cast occurred (0)
+/var/www/html/bitrix/modules/main/include.php:1
+#0: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog_before.php:19
+#1: require_once(string)
+	/var/www/html/bitrix/modules/main/include/prolog.php:10
+#2: require_once(string)
+	/var/www/html/bitrix/header.php:1
+#3: require(string)
+	/var/www/html/catalog/index.php:2
+----------
+
